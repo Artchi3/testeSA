@@ -431,4 +431,7 @@
     width: auto !important;
     margin: 0 10px 0px 15px;
   }
+  .flexRow--videosess{
+    height: 900px;
+  }
 } 
