@@ -112,11 +112,13 @@
 .flexRowContent--fitfhsession { 
   align-items: center; 
   position: relative;
-  min-width: 1340px;
+  min-width: 100%;
   min-height: 630px; 
   max-width: 1340px;
   max-height: 630px;
   margin: 0 auto 140px auto;
+  width: 100%;
+  justify-content: center;
 }
 .flexRowContent--fitfhsession .stretchChildrenWidth{
   width: auto !important;
@@ -125,7 +127,7 @@
   align-items: flex-start; 
   position: relative;  
   margin: -90px 0 0 50px ; 
-  min-width: 380px;
+  min-width: 100%;
   max-width: 380px;
   width: 380px !important;
   height: 380px; 
@@ -133,21 +135,25 @@
 }
 .flexCol--fitfhsession-catalog{ 
   min-height: 550px;
-  width: 820px !important;
+  max-width: 820px ;
   position: relative;
   z-index: 2;
   overflow-x: scroll;
   overflow-y: visible;
-  left: 90px;
+  left: 45px;
   padding-top: 260px;
+  min-width: 100%;
+  width: 100% !important;
 }
 .flexRowContent--fitfhrow-catalog{
-  width: 248px;
-  height: 200px;  
+  width: 100%;
+  height: 200px;
+  display: flex;  
 }
 .flexRow--fitfhrow-catalog {
-  width: 248px;
-  height: 200px;   
+  width: 100%;
+  height: 200px;
+  display: flex;  
 }
 .flexCol--fitfhsession-catalog::-webkit-scrollbar {
   width: 736px;
@@ -187,6 +193,11 @@
   height: 13px;
   width: 25px;
   opacity: 100%;
+}
+
+.flexRowContent--fitfhsession .flexRow--fitfhrow-catalog .stretchChildrenWidth{
+  width: auto !important;
+  margin: 0 10px 0px;
 }
 
 .flexRow--deals {
@@ -260,7 +271,7 @@
     margin-bottom: 250px;
   }  
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) { 
   .flexRowContent--firstscroll{
     width: 100%;
     max-width: 980px;
@@ -293,21 +304,24 @@
   .flexRowContent--fitfhsession{
     align-items: center;
     position: relative;
-    min-width: 880px;
+    min-width: 100%;
     min-height: 630px;
     max-width: 880px;
     max-height: 630px;
     margin: 0 auto 80px  auto;
+    justify-content: center;
   }   
   .flexCol--fitfhsession-catalog{
     min-height: 490px;
-    width: 450px !important; 
+    min-width: 440px;
+    max-width: 440px;
     position: relative;
     z-index: 2;
     overflow-x: scroll;
     overflow-y: visible;
     left: 10px;
     padding-top: 260px;
+    width: 100% !important;
   }
   .flexCol--fitfhsession-col{
     margin: -90px 0 0 40px;
@@ -368,24 +382,33 @@
   .flexRowContent--fitfhsession{
     align-items: center;
     position: relative;
-    min-width: 414px;
+    min-width: 100%;
     min-height: 630px;
     max-width: 414px;
     max-height: 630px;
     margin: 0 auto 180px auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
   }   
+  .flexRow--fitfhsession{
+    margin-top: 200px;
+  }
   .flexCol--fitfhsession-catalog{
     min-height: 457px;
-    width: 414px !important; 
+    max-width: 414px; 
+    min-width: 414px;
     position: static;
     z-index: 1;
     overflow-x: scroll;
     overflow-y: visible;
     left: 10px;
     padding-top: 50px!important;
+    width:95%!important
   }
   .flexCol--fitfhsession-col{
-    margin: 60px 0 0 10px;
+    margin: 60px 0 0 0px;
+    padding-left: 15px;
   } 
   .flexRow--fitfhrow-catalog{
     width: 374px;
@@ -403,5 +426,9 @@
   }
   .flexCol--fitfhsession-catalog::-webkit-scrollbar-button { 
     width: 8px; 
+  }
+  .flexRowContent--fitfhsession .flexRow--fitfhrow-catalog .stretchChildrenWidth{
+    width: auto !important;
+    margin: 0 10px 0px 15px;
   }
 } 

@@ -8,6 +8,7 @@
 
 .infoCardContainer--info-card-home {
   max-width: 1520px;
+  width: 100%;
   margin: 0 auto;
   background-color: #e6f1e6;
   padding: 0px;
@@ -16,8 +17,8 @@
   max-width: 248px;
   max-height: 200px;
   min-width: 248px;
-  min-height: 200px;
-  margin: 0 10px;
+  width: 100% !important;
+  min-height: 200px; 
   background-color: #FDFDFDCC;
   backdrop-filter: blur(20px);
   padding: 0px;
@@ -149,7 +150,7 @@
 }
 .imageElement--Bkgparalax {
   position: absolute;
-  left: -4px;
+  left: 0px;
   top: 0;
   z-index: 0;
   max-width: 1920px;
@@ -163,6 +164,7 @@
   max-width: 1340px;
   position: relative;
   z-index: 1; 
+  width: 100%;
   margin: 25px 0 140px;
 }
 .imageElement--thrsub-img {
@@ -184,10 +186,15 @@
 .imageElement--fitfhsub-img {
   max-width: 1340px;
   max-height: 630px !important;
-  width: 1340px;
+  width: 100%;
   height: 630px !important;
   position: absolute;
   z-index:1;  
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
   left: 0;
   top: 0;
 }
@@ -265,6 +272,7 @@
   } 
   .imageElement--secsub-img{
     max-width: 980px;
+    width: 100%;
     max-height: 764px;
     margin: 25px 0 80px;
   }
@@ -278,15 +286,21 @@
     height: 630px !important;
     position: absolute;
     z-index: 1;
+    margin: auto;
+    bottom: 0;
+    right: 0;
     left: 0;
     top: 0;
   }
   .infoCardContainer--info-card-vinhoFBS{
     min-width: 208px;
+    max-width: 208px;
+    width: 100%;
     min-height: 200px; 
   }
   .infoCardImageContainer--info-card-vinhoFBS{
-    width: 198px;
+    max-width: 198px;
+    width: 100%;
     height: auto;
   }
   .infoCardTextContainer--info-card-vinhoFBS{
@@ -300,10 +314,12 @@
   } 
   .imageElement--foursub-img{
     max-width: 880px;
+    width: 100%;
     max-height: 630px !important;
   }
   .imageElement--thrsub-img{
     max-width: 440px;
+    width: 100%;
     max-height: 600px !important;
   }
 }
@@ -335,19 +351,24 @@
     height: 1000px !important;
     position: absolute;
     z-index: 1;
+    margin: auto;
+    bottom: 0;
+    right: 0;
     left: 0;
-    top: 0;
+    top: 0; 
   }
   .infoCardContainer--info-card-vinhoFBS{
-    min-width: 248px;
+    min-width: 240px;
     max-height: 200px;
     max-width: 248px;
     max-height: 200px;
     width: 100%;
-    margin: auto 15px 30px;
+    margin: auto 0px 30px;
   }
+
   .infoCardImageContainer--info-card-vinhoFBS{
-    width: 248px;
+    max-width: 248px;
+    width: 100%;
     height: 350px;
   }
   .infoCardTextContainer--info-card-vinhoFBS{
@@ -361,10 +382,12 @@
   } 
   .imageElement--foursub-img{
     max-width: 414px;
+    width: 100%;
     max-height: 630px !important;
   }
   .imageElement--thrsub-img{
     max-width: 374px;
+    width: 100%;
     max-height: 374px !important;
   }
   .infoCardContainer--info-card-carousel{
@@ -372,12 +395,14 @@
     display: flex;
   }
   .infoCardImageContainer--info-card-carousel {
-    width: 374px;
+    max-width: 374px;
+    width: 100%;
     height: 388px; 
 
   }
   .infoCardTextContainer--info-card-carousel{
-    width: 374px;
+    max-width: 374px;
+    width: 100%;
     height: 203px;
     margin-left: 0px;
   }

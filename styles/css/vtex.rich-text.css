@@ -75,7 +75,7 @@
   color: #FFFFFF; 
   max-width: 764px !important;
   height: 168px; 
-
+  width: 100%;
 }
 .container--MNTinter .paragraph--MNTinter{
   position: relative;
@@ -289,6 +289,7 @@
   height: 100%;
   line-height: 24px;
   color: #000;
+  margin-bottom: 25%;
 }
 @media only screen and (min-width: 640px) {
   .container--question .strong {
@@ -314,13 +315,16 @@
 @media only screen and (max-width: 1000px){
   .container--secsub-title .paragraph--secsub-title{
     max-width: 715px;
+    width: 100%;
     line-height: 60.51px;
   }
   .container--secsub-txt .paragraph--secsub-txt{
     max-width: 350px;
+    width: 100%;
   }
   .container--secsub-smtxt .paragraph--secsub-smtxt{
     max-width: 900px;
+    width: 100%;
   }
   .container--thrsub-txt{
     font-size: 16px;
@@ -335,9 +339,11 @@
   .container--thrsub-title .paragraph--thrsub-title{
     line-height: 45.99px;
     max-width: 380px;
+    width: 100%;
   } 
   .container--thrsub-smtxt .paragraph--thrsub-smtxt{ 
     max-width: 410px;
+    width: 100%;
   } 
 
 
@@ -347,7 +353,8 @@
     line-height: 45.99px;
   }
   .container--foursub-title .paragraph--foursub-title{
-    width: 380px;
+    max-width: 380px;
+    width: 100%;
     line-height: 45.99px;
   }
   .container--foursub-smtxt{
@@ -376,10 +383,12 @@
     line-height: 24.2px;     
     color: #FFFFFF;
     max-width: 354px !important;
+    width: 100%;
     height: 168px;
   }
   .container--secsub-title .paragraph--secsub-title{
     max-width: 374px;
+    width: 100%;
     line-height: 38.73px;
   }
   .container--secsub-title{
@@ -391,10 +400,12 @@
   }
   .container--secsub-txt .paragraph--secsub-txt{
     max-width: 350px;
+    width: 100%;
     line-height: 19.36px;
   }
   .container--secsub-smtxt .paragraph--secsub-smtxt{
     max-width: 374px;
+    width: 100%;
   }
   .container--thrsub-txt{
     font-size: 14px;
@@ -409,12 +420,14 @@
   .container--thrsub-title .paragraph--thrsub-title{
     line-height: 38.73px;
     max-width: 374px;
+    width: 100%;
   } 
   .container--thrsub-smtxt{
     font-size: 16px;
   }
   .container--thrsub-smtxt .paragraph--thrsub-smtxt{ 
     max-width: 374px;
+    width: 100%;
     line-height: 19.36px;
   } 
 
@@ -425,7 +438,8 @@
     line-height: 38.73px;
   }
   .container--foursub-title .paragraph--foursub-title{
-    width: 325px;
+    width: 100%;
+    max-width: 325px;
     line-height: 38.73px;
   }
   .container--foursub-smtxt{
@@ -440,6 +454,7 @@
   }
   .container--foursub-txt .paragraph--foursub-txt{
     max-width: 334px;
+    width: 100%;
     line-height: 16.94px;
   }
   .container--fitfhsub-title{
@@ -448,9 +463,11 @@
   }
   .container--fitfhsub-title .paragraph--fitfhsub-title{
     max-width: 360px;
+    width: 100%;
     line-height: 38.73px;
   }
   .container--fitfhsub-smtxt .paragraph--fitfhsub-smtxt{
     max-width: 350px;
+    width: 100%;
   }
 } 

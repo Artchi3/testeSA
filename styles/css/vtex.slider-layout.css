@@ -107,8 +107,9 @@
   .sliderLayoutContainer--sixthsub-carousel{
     height: 800px;
     min-height: 741px;
-    width: 414px !important;
-    margin: 200px 30px 90px;
+    width: 100% !important;
+    max-width: 414px;
+    margin: 50px 30px 90px;
   }
   .sliderTrackContainer--sixthsub-carousel {
     padding-bottom: 50px;
