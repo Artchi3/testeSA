@@ -1,0 +1,517 @@
+{
+  "store.custom#mioneto": {
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
+    "blocks": [
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.phone"
+    ]
+  },  
+  "responsive-layout.desktop": {
+    "children": [ 
+      "flex-layout.row#mioneto"
+    ]
+  },
+  "responsive-layout.tablet": {
+    "children": [ 
+      "flex-layout.row#mioneto" 
+    ]
+  },
+  "responsive-layout.phone": {
+    "children": [ 
+      "flex-layout.row#mioneto",
+      "flex-layout.row#mioneto-videosession"
+    ]
+  },
+  
+  "flex-layout.row#mioneto": {
+    "children": [ 
+      "flex-layout.col#mioneto-content"
+    ]
+  },
+
+  "flex-layout.col#mioneto-content": {
+    "children": [
+      "flex-layout.row#mioneto-firstscroll",
+      "flex-layout.row#mioneto-secondsession",
+      "flex-layout.row#mioneto-thirdsession",
+      "flex-layout.row#mioneto-fourthsession",
+      "flex-layout.row#mioneto-fitfhsession",
+      "flex-layout.row#mioneto-sixthsession" 
+    ] 
+  },
+  "flex-layout.row#mioneto-firstscroll":{
+    "children":[
+      "image#bkg-paralax",
+      "image#logotype",
+      "rich-text#mioneto-lparagraph",
+      "image#uglybtn"
+    ],
+   "props": {
+    "blockClass":"firstscroll"
+   }
+  },
+  "flex-layout.row#mioneto-secondsession":{
+    "children": [ 
+      "flex-layout.col#second-subssesion"
+    ]
+  },
+  "flex-layout.row#mioneto-thirdsession":{
+    "children": [ 
+      "flex-layout.col#third-subssesion", 
+      "image#thrsub-img"
+    ],
+    "props":{
+      "verticalAlign": "middle",
+      "horizontalAlign":"center",
+      "blockClass":"thirdsession"
+    }
+  },
+  "flex-layout.row#mioneto-fourthsession":{
+    "children": [ 
+      "image#foursub-img",
+      "flex-layout.col#fourth-subssesion"
+    ],
+    "props":{
+      "verticalAlign": "middle",
+      "horizontalAlign":"left",
+      "blockClass":"fourthsession"
+    }
+  },
+  "flex-layout.row#mioneto-fitfhsession":{
+    "children": [ 
+      "image#fitfhsub-img",
+      "flex-layout.col#fitfh-subssesion",
+      "flex-layout.col#fitfh-catalog"
+    ],
+    "props":{
+      "verticalAlign": "middle",
+      "horizontalAlign":"left",
+      "blockClass":"fitfhsession"
+    }
+  },
+  "flex-layout.row#mioneto-sixthsession":{
+    "children":[
+      "slider-layout#sixthsub-carousel"
+    ]
+  },
+  "flex-layout.row#mioneto-videosession":{
+    "children":[
+      "rich-text#video-title",
+      "rich-text#video-smtxt",
+      "video#mioneto"
+    ],
+    "props":{
+      "blockClass":"videosess"
+    }
+  }, 
+  "flex-layout.col#second-subssesion":{
+    "children":[
+      "rich-text#secsub-txt",
+      "rich-text#secsub-title",
+      "rich-text#secsub-smtxt",
+      "image#secsub-img"
+    ],
+    "props":{
+      "verticalAlign": "middle",
+      "horizontalAlign":"center",
+      "blockClass":"second-subssesion"
+    }
+  },
+  "flex-layout.col#third-subssesion":{
+    "children": [  
+      "rich-text#thrsub-txt",
+      "rich-text#thrsub-title",
+      "rich-text#thrsub-smtxt"
+    ],
+    "props":{
+      "verticalAlign": "middle",
+      "horizontalAlign":"left",
+      "blockClass":"thirdsession-col"
+    }
+  },
+  "flex-layout.col#fourth-subssesion":{
+    "children": [  
+      "rich-text#foursub-txt",
+      "rich-text#foursub-title",
+      "rich-text#foursub-smtxt"
+    ],
+    "props":{
+      "verticalAlign": "middle",
+      "horizontalAlign":"left",
+      "blockClass":"fourthsession-col"
+    }
+  },
+  "flex-layout.col#fitfh-subssesion":{
+    "children": [   
+      "rich-text#fitfhsub-title",
+      "rich-text#fitfhsub-smtxt"
+    ],
+    "props":{
+      "verticalAlign": "middle",
+      "horizontalAlign":"left",
+      "blockClass":"fitfhsession-col"
+    }
+  },
+  "flex-layout.col#fitfh-catalog":{
+    "children": [   
+      "flex-layout.row#catalog"
+    ],
+    "props":{
+      "verticalAlign": "middle",
+      "horizontalAlign":"left",
+      "blockClass":"fitfhsession-catalog"
+    }
+  },
+  "flex-layout.row#catalog":{ 
+    "children":[
+      "info-card#catalog1",
+      "info-card#catalog2",
+      "info-card#catalog3",
+      "info-card#catalog4",
+      "info-card#catalog5" 
+    ],
+    "props":{
+      "verticalAlign": "middle",
+      "horizontalAlign":"left",
+      "blockClass":"fitfhrow-catalog"
+    }
+  },
+  "slider-layout#sixthsub-carousel":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots":"always",
+      "blockClass": "sixthsub-carousel"
+    },
+    "children": ["info-card#carousel1", "info-card#carousel2", "info-card#carousel3", "info-card#carousel4", "info-card#carousel5"]
+  },
+  "rich-text#mioneto-lparagraph": {
+    "props": {
+      "text":
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat..",
+      "blockClass": "MNTinter"
+    }
+  },
+  "image#logotype": {
+      "props": {
+        "title":"Logotipo",
+        "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+        "maxHeight": "",
+        "maxWidth": "",
+        "blockClass": "MNTlogotype"
+      }
+  },
+  "image#bkg-paralax": {
+    "props": {
+      "title":"Paralax",
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "Bkgparalax"
+    }
+  },  
+  "image#uglybtn": {
+    "props": {
+      "id":"uglybtn",
+      "title":"uglybtn",
+      "src": "https://s3-alpha-sig.figma.com/img/4381/d34e/a906830decabaf0e55e3af9234bb40e8?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DaCq2cyq9aJQGOBwYnnKChw6blQZcsIse4464za1prpyQ4YrLRJyhKK37R4ScHZBar1Ygb9QXxdHObULYOLsCwUVZ0Rmqq6rDLjoU~n0esSmMJU73H19DBmdEusUGQOolHC55fVXstnjL3hbFGS~hdOeeUQbIl9GuEGZ2nINPHr6A~AZCWZAJm12aDiqAfVQRwuH~nzIK82iXP5m~gZISWA1k5BJq6KDqm0UeShftJkQ25yK64LDrVBMifGzdbGcsrvul3Ad0cnseM6c5qmVzYnBpUDSbtumQ9tISKDQsXQU1nIbX3eX~Y~d5kuE-8hMncR07jcXn1FF-VMiiXpmNA__",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "MNTuglybtn"
+    }
+},
+  "rich-text#secsub-txt":{
+    "props": { 
+      "text": "Ultrices enim semper posuere aliquet.",  
+      "blockClass": "secsub-txt"
+    }
+  },
+  "rich-text#secsub-title":{
+    "props": { 
+      "text": "Ullamcorper porttitor in consectetur", 
+      "blockClass": "secsub-title"
+    }
+  },
+  "rich-text#secsub-smtxt":{
+    "props": { 
+      "text": "Nullam elementum pretium aenean pulvinar quam facilisis vestibulum. Posuere ac turpis sed a metus donec. Leo urna duis pellentesque augue dignissim. A eget ornare sed dolor sed. Sed tristique eget faucibus venenatis diam. Vitae ante tellus facilisi venenatis tristique in mollis at. Nulla nec ultrices sem et turpis non cursus erat ut. Cursus nulla auctor commodo tellus hendrerit convallis rutrum lorem fringilla. Sed orci egestas consequat sapien. Sed facilisis nisl sit vehicula lobortis id urna egestas. Id tincidunt scelerisque nibh suspendisse mattis molestie. Eget etiam et elit pharetra id rutrum lorem cursus A aliquet sodales facilisis eget. Lacus risus elementum id cursus molestie at. Sit vulputate bibendum at sit auctor netus. Ut pulvinar egestas.",
+      "blockClass": "secsub-smtxt"
+    }
+  },
+  "image#secsub-img":{
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 430,
+      "blockClass":"secsub-img"
+    }
+  },
+  "rich-text#thrsub-txt":{
+    "props": { 
+      "text": "Ultrices enim semper posuere aliquet.",  
+      "blockClass": "thrsub-txt"
+    }
+  },
+  "rich-text#thrsub-title":{
+    "props": { 
+      "text": "Ullamcorper porttitor in consectetur", 
+      "blockClass": "thrsub-title"
+    }
+  },
+  "rich-text#thrsub-smtxt":{
+    "props": { 
+      "text": "In imperdiet quam urna feugiat vel. Risus in sollicitudin sit suspendisse nullam sit lectus porta. Egestas sed consequat nibh hendrerit pharetra at nisl id cursus. Orci lorem vivamus lectus risus sollicitudin. Elit nullam ante a tristique vitae egestas. Ipsum risus eros elementum enim consectetur vestibulum sollicitudin egestas. Faucibus semper egestas sit justo cras sit. Hac ligula dignissim tellus scelerisque posuere quis duis penatibus. Vitae arcu blandit senectus gravida at porta. Dolor mollis scelerisque cras nulla sit amet facilisis. Nisl ut turpis tempor massa enim mi sagittis.",
+      "blockClass": "thrsub-smtxt"
+    }
+  },
+  "image#thrsub-img":{
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "max-height": 630,  
+      "blockClass":"thrsub-img"
+    }
+  },
+  "rich-text#foursub-txt":{
+    "props": { 
+      "text": "Ultrices enim semper posuere aliquet.",  
+      "blockClass": "foursub-txt"
+    }
+  },
+  "rich-text#foursub-title":{
+    "props": { 
+      "text": "Quam ultrices rhoncus sed pulvinar ut ac nec.", 
+      "blockClass": "foursub-title"
+    }
+  },
+  "rich-text#foursub-smtxt":{
+    "props": { 
+      "text": "Blandit dui mattis pharetra eget. Sodales rhoncus mauris ullamcorper id. Cursus in ut sollicitudin nunc. Et faucibus convallis curabitur urna ante. Quam leo commodo imperdiet nec platea. Semper lectus ultrices ipsum sit leo quam in porttitor. Eget sit suspendisse diam et vitae consequat massa sed neque. Commodo proin tempor molestie mattis. Ante non nibh posuere condimentum blandit quis amet. Aliquet duis faucibus est cras dui praesent scelerisque ut pharetra. Sed amet neque sit phasellus pellentesque nunc facilisis nam.",
+      "blockClass": "foursub-smtxt"
+    }
+  },
+  "image#foursub-img":{
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "max-height": 630,  
+      "max-width":1340,
+      "blockClass":"foursub-img"
+    }
+  },
+  "rich-text#fitfhsub-title":{
+    "props": { 
+      "text": "Quam ultrices rhoncus sed pulvinar ut ac nec.", 
+      "blockClass": "fitfhsub-title"
+    }
+  },
+  "rich-text#fitfhsub-smtxt":{
+    "props": { 
+      "text": "Blandit dui mattis pharetra eget. Sodales rhoncus mauris ullamcorper id. Cursus in ut sollicitudin nunc. Et faucibus convallis curabitur urna ante. Quam leo commodo imperdiet nec platea. Semper lectus ultrices ipsum sit leo quam in porttitor. Eget sit suspendisse diam et vitae consequat massa sed neque. Commodo proin tempor molestie mattis. Ante non nibh posuere condimentum blandit quis amet. Aliquet duis faucibus est cras dui praesent scelerisque ut pharetra.",
+      "blockClass": "fitfhsub-smtxt"
+    }
+  },
+  "image#fitfhsub-img":{
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "max-height": 630,  
+      "max-width":1340,
+      "blockClass":"fitfhsub-img"
+    }
+  },
+  "info-card#catalog1": {
+    "props": {
+      "id": "info-card-vinhoFBS",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/Imagem.png",
+      "textPosition": "left", 
+      "headline": "Vinho Fino Branco Seco Freixenet Sauvignon Blanc 750ml",
+      "callToActionText": "Compre agora",
+      "callToActionUrl": "#",
+      "callToActionMode": "Link",
+      "blockClass": "info-card-vinhoFBS",
+      "textAlignment": "left", 
+      "preload": true
+    }
+  },
+  "info-card#catalog2": {
+    "props": {
+      "id": "info-card-vinhoFBS",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/Imagem2.png",
+      "textPosition": "left", 
+      "headline": "Vinho Fino Branco Seco Freixenet Sauvignon Blanc 750ml",
+      "callToActionText": "Compre agora",
+      "callToActionUrl": "#",
+      "callToActionMode": "Link",
+      "blockClass": "info-card-vinhoFBS",
+      "textAlignment": "left", 
+      "preload": true
+    }
+  },
+  "info-card#catalog3": {
+    "props": {
+      "id": "info-card-vinhoFBS",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/Imagem.png",
+      "textPosition": "left", 
+      "headline": "Vinho Fino Branco Seco Freixenet Sauvignon Blanc 750ml",
+      "callToActionText": "Compre agora",
+      "callToActionUrl": "#",
+      "callToActionMode": "Link",
+      "blockClass": "info-card-vinhoFBS",
+      "textAlignment": "left", 
+      "preload": true
+    }
+  },
+  "info-card#catalog4": {
+    "props": {
+      "id": "info-card-vinhoFBS",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/Imagem2.png",
+      "textPosition": "left", 
+      "headline": "Vinho Fino Branco Seco Freixenet Sauvignon Blanc 750ml",
+      "callToActionText": "Compre agora",
+      "callToActionUrl": "#",
+      "callToActionMode": "Link",
+      "blockClass": "info-card-vinhoFBS",
+      "textAlignment": "left", 
+      "preload": true
+    }
+  },
+  "info-card#catalog5": {
+    "props": {
+      "id": "info-card-vinhoFBS",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/Imagem.png",
+      "textPosition": "left", 
+      "headline": "Vinho Fino Branco Seco Freixenet Sauvignon Blanc 750ml",
+      "callToActionText": "Compre agora",
+      "callToActionUrl": "#",
+      "callToActionMode": "Link",
+      "blockClass": "info-card-vinhoFBS",
+      "textAlignment": "left", 
+      "preload": true
+    }
+  }, 
+  "info-card#carousel1": {
+    "props": {
+      "id": "info-card-carousel",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/Imageslider.png",
+      "textPosition": "right", 
+      "headline": "'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.'",
+      "subhead": "Gabriela", 
+      "callToActionMode":"none",
+      "blockClass": "info-card-carousel",
+      "textAlignment": "left", 
+      "preload": true
+    }
+  },
+  "info-card#carousel2": {
+    "props": {
+      "id": "info-card-carousel",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/Imageslider.png",
+      "textPosition": "right", 
+      "headline": "'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.'",
+      "subhead": "Gabriela", 
+      "callToActionMode":"none",
+      "blockClass": "info-card-carousel",
+      "textAlignment": "left", 
+      "preload": true
+    }
+  }, 
+  "info-card#carousel3": {
+    "props": {
+      "id": "info-card-carousel",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/Imageslider.png",
+      "textPosition": "right", 
+      "headline": "'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.'",
+      "subhead": "Gabriela", 
+      "callToActionMode":"none",
+      "blockClass": "info-card-carousel",
+      "textAlignment": "left", 
+      "preload": true
+    }
+  }, 
+  "info-card#carousel4": {
+    "props": {
+      "id": "info-card-carousel",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/Imageslider.png",
+      "textPosition": "right", 
+      "headline": "'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.'",
+      "subhead": "Gabriela", 
+      "callToActionMode":"none",
+      "blockClass": "info-card-carousel",
+      "textAlignment": "left", 
+      "preload": true
+    }
+  }, 
+  "info-card#carousel5": {
+    "props": {
+      "id": "info-card-carousel",
+      "isFullModeStyle": false,
+      "imageUrl": "assets/Imageslider.png",
+      "textPosition": "right", 
+      "headline": "'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.'",
+      "subhead": "Gabriela", 
+      "callToActionMode":"none",
+      "blockClass": "info-card-carousel",
+      "textAlignment": "left", 
+      "preload": true
+    }
+  }, 
+  "video#mioneto": {
+    "props": {
+      "src": "https://www.youtube.com/embed/yQPk4cVrU_w?si=Ij6IzLdNOtbAC8Rs",
+      "width": "374px",
+      "height": "200px"
+    }
+  },  
+  "rich-text#video-title":{
+    "props": { 
+      "text": "Long heading is what you see here in this feature section", 
+      "blockClass": "video-title"
+    }
+  },
+  "rich-text#video-smtxt":{
+    "props": { 
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.",
+      "blockClass": "video-smtxt"
+    }
+  },
+
+  "header#empty": {
+    "blocks": [
+      "header-layout.desktop#empty",
+      "header-layout.mobile#empty"
+    ]
+  },
+  "header-layout.desktop#empty": {
+    "children": []
+  },
+  "header-layout.mobile#empty": {
+    "children": []
+  },
+  "footer#empty": {
+    "blocks": [
+      "footer-layout.desktop#empty",
+      "footer-layout.mobile#empty"
+    ]
+  },
+  "footer-layout.desktop#empty": {
+    "children": []
+  },
+  "footer-layout.mobile#empty": {
+    "children": []
+  }
+}

@@ -1,0 +1,456 @@
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+.container--MNTinter{
+  font-family: "Interlgt";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: center; 
+  color: #FFFFFF; 
+  max-width: 764px !important;
+  height: 168px; 
+
+}
+.container--MNTinter .paragraph--MNTinter{
+  position: relative;
+  z-index: 1;
+  max-width: 764px;
+  width: 100%;
+  font-family: 'Interlgt';
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: center; 
+  margin-top: 0;
+}
+.container--secsub-txt{
+  font-family: "Interlgt";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.78px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #1D1D1D;
+}
+.container--secsub-title{
+  font-family: "Interreg";
+  font-size: 50px;
+  font-weight: 400; 
+  text-align: center;
+  color: #1D1D1D;
+
+}
+.container--secsub-smtxt{
+  font-family: "Interlgt";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: center;
+  color: #1D1D1D;
+}
+.container--secsub-txt .paragraph--secsub-txt{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1102px;  
+  line-height: 21.78px;
+}
+.container--secsub-title .paragraph--secsub-title{
+  position: relative;
+  z-index: 1;
+  width: 100%; 
+  margin: -15px 0px 15px 0px;
+  max-width: 780px;
+  line-height: 64px;
+}
+.container--secsub-smtxt .paragraph--secsub-smtxt{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1022px;  
+  line-height: 19.36px;
+} 
+.container--thrsub-txt{
+  font-family: "Interlgt";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.78px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #1D1D1D;
+}
+.container--thrsub-title{
+  font-family: "Interreg";
+  font-size: 50px;
+  font-weight: 400; 
+  text-align: left;
+  color: #1D1D1D;
+
+}
+.container--thrsub-smtxt{
+  font-family: "Interlgt";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: left;
+  color: #1D1D1D;
+}
+.container--thrsub-txt .paragraph--thrsub-txt{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 500px; 
+  line-height: 21.78px;
+} 
+.container--thrsub-smtxt .paragraph--thrsub-smtxt{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 500px; 
+  line-height: 21.78px;
+}
+.container--thrsub-title .paragraph--thrsub-title{
+  position: relative;
+  z-index: 1;  
+  max-width: 500px; 
+  line-height: 59px;
+  margin: 5px 0;
+} 
+.container--foursub-txt{
+  font-family: "Interlgt";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.36px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #1D1D1D;
+}
+.container--foursub-title{
+  font-family: "Interreg";
+  font-size: 50px;
+  font-weight: 400; 
+  text-align: left;
+  color: #1D1D1D;
+
+}
+.container--foursub-smtxt{
+  font-family: "Interlgt";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: left;
+  color: #1D1D1D;
+}
+.container--foursub-txt .paragraph--foursub-txt{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 500px; 
+  line-height: 19.36px;
+} 
+.container--foursub-smtxt .paragraph--foursub-smtxt{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 550px; 
+  line-height: 21.78px;
+}
+.container--foursub-title .paragraph--foursub-title{
+  position: relative;
+  z-index: 1;  
+  max-width: 510px; 
+  line-height: 59px;
+  margin: 5px 0;
+  line-height: 60.51px;
+} 
+.container--fitfhsub-title{
+  font-family: "Interreg";
+  font-size: 40px;
+  font-weight: 400; 
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.container--fitfhsub-smtxt{
+  font-family: "Interlgt";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  color: #FFFFFF;
+} 
+.container--fitfhsub-smtxt .paragraph--fitfhsub-smtxt{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 360px; 
+  line-height: 19.36px;
+}
+.container--fitfhsub-title .paragraph--fitfhsub-title{
+  position: relative;
+  z-index: 1;  
+  max-width: 360px; 
+  line-height: 49px;
+  margin: 10px 0;
+} 
+.container--video-title{
+  font-family: 'Interbld';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  text-align: left; 
+  color: #000;
+}
+.container--video-title .paragraph--video-title{
+  line-height: 38.4px;
+  max-width: 374px;
+  max-height: 114px; 
+  width: 100%;
+  height: 100%;
+  color: #000;
+}
+.container--video-smtxt{
+  font-family: 'Interreg';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;   
+  color: #000;
+}
+.container--video-smtxt .paragraph--video-smtxt{
+  max-width: 374px;
+  max-height: 168px; 
+  width: 100%;
+  height: 100%;
+  line-height: 24px;
+  color: #000;
+}
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .container--secsub-title .paragraph--secsub-title{
+    max-width: 715px;
+    line-height: 60.51px;
+  }
+  .container--secsub-txt .paragraph--secsub-txt{
+    max-width: 350px;
+  }
+  .container--secsub-smtxt .paragraph--secsub-smtxt{
+    max-width: 900px;
+  }
+  .container--thrsub-txt{
+    font-size: 16px;
+  }
+  .container--thrsub-txt .paragraph--thrsub-txt{
+    line-height: 19.36px;
+  }
+  .container--thrsub-title{
+    font-size: 38px;
+    
+  }
+  .container--thrsub-title .paragraph--thrsub-title{
+    line-height: 45.99px;
+    max-width: 380px;
+  } 
+  .container--thrsub-smtxt .paragraph--thrsub-smtxt{ 
+    max-width: 410px;
+  } 
+
+
+  .container--foursub-title{
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 45.99px;
+  }
+  .container--foursub-title .paragraph--foursub-title{
+    width: 380px;
+    line-height: 45.99px;
+  }
+  .container--foursub-smtxt{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .container--foursub-smtxt .paragraph--foursub-smtxt{
+    line-height: 19.36px;
+  }
+} 
+@media only screen and (max-width: 414px){
+  .container--MNTinter .paragraph--MNTinter{
+    position: relative;
+    z-index: 1;
+    max-width: 354px;
+    width: 100%;
+    font-family: 'Interlgt'; 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;  
+  }
+  .container--MNTinter{
+    font-family: "Interlgt"; 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;     
+    color: #FFFFFF;
+    max-width: 354px !important;
+    height: 168px;
+  }
+  .container--secsub-title .paragraph--secsub-title{
+    max-width: 374px;
+    line-height: 38.73px;
+  }
+  .container--secsub-title{
+    font-size: 32px;
+  }
+  .container--secsub-txt{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .container--secsub-txt .paragraph--secsub-txt{
+    max-width: 350px;
+    line-height: 19.36px;
+  }
+  .container--secsub-smtxt .paragraph--secsub-smtxt{
+    max-width: 374px;
+  }
+  .container--thrsub-txt{
+    font-size: 14px;
+  }
+  .container--thrsub-txt .paragraph--thrsub-txt{
+    line-height: 16.94px;
+  }
+  .container--thrsub-title{
+    font-size: 32px;
+    
+  }
+  .container--thrsub-title .paragraph--thrsub-title{
+    line-height: 38.73px;
+    max-width: 374px;
+  } 
+  .container--thrsub-smtxt{
+    font-size: 16px;
+  }
+  .container--thrsub-smtxt .paragraph--thrsub-smtxt{ 
+    max-width: 374px;
+    line-height: 19.36px;
+  } 
+
+
+  .container--foursub-title{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.73px;
+  }
+  .container--foursub-title .paragraph--foursub-title{
+    width: 325px;
+    line-height: 38.73px;
+  }
+  .container--foursub-smtxt{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .container--foursub-smtxt .paragraph--foursub-smtxt{
+    line-height: 19.36px;
+  }
+  .container--foursub-txt{
+    font-size: 14px;
+  }
+  .container--foursub-txt .paragraph--foursub-txt{
+    max-width: 334px;
+    line-height: 16.94px;
+  }
+  .container--fitfhsub-title{
+    font-size: 32px;
+    font-weight: 400;
+  }
+  .container--fitfhsub-title .paragraph--fitfhsub-title{
+    max-width: 360px;
+    line-height: 38.73px;
+  }
+  .container--fitfhsub-smtxt .paragraph--fitfhsub-smtxt{
+    max-width: 350px;
+  }
+} 

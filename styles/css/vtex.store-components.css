@@ -1,0 +1,402 @@
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+}
+.infoCardContainer--info-card-vinhoFBS {
+  max-width: 248px;
+  max-height: 200px;
+  min-width: 248px;
+  min-height: 200px;
+  margin: 0 10px;
+  background-color: #FDFDFDCC;
+  backdrop-filter: blur(20px);
+  padding: 0px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative; 
+  border-radius: 5px; 
+}
+.infoCardImageContainer--info-card-vinhoFBS {
+  width: 248px;
+  height: 350px;
+  position: absolute;
+  bottom: 55%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.infoCardTextContainer--info-card-vinhoFBS{
+  width: 100%;
+  align-items: flex-end;
+  padding: 0 15px;
+}
+.infoCardHeadline--info-card-vinhoFBS{
+  width: 100%;
+  font-family: "Interreg";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  text-align: left;
+  padding-right: 10%;
+}
+.infoCardCallActionContainer--info-card-vinhoFBS{
+  margin-top: 0px;
+}
+.infoCardCallActionText--info-card-vinhoFBS{
+  background: none !important;
+  font-family: "Interreg";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: right;
+  text-decoration: underline;
+  color: #000000;
+  margin: 0px !important;
+}
+.infoCardTextContainer--info-card-carousel{
+  margin-left: 80px;
+}
+.infoCardHeadline--info-card-carousel{
+  font-family: 'Robotoreg';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  text-align: left; 
+}
+.infoCardSubhead--info-card-carousel{
+  font-family: 'Robotoreg';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left; 
+  position: relative;
+  margin-top: 53px;
+}
+.infoCardSubhead--info-card-carousel::after{
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 61px;
+  background-color: #000000;
+  right: -20px;
+  display: block;
+  top: -20px; 
+}
+
+.newsletter {
+  background-color: #03054e;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+.imageElement--MNTlogotype {
+  position: relative;
+  z-index: 1; 
+  margin-bottom: 60px;
+}
+.imageElement--Bkgparalax {
+  position: absolute;
+  left: -4px;
+  top: 0;
+  z-index: 0;
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imageElement--secsub-img {
+  max-width: 1340px;
+  position: relative;
+  z-index: 1; 
+  margin: 25px 0 140px;
+}
+.imageElement--thrsub-img {
+  max-width: 630px;
+  max-height: 630px !important;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;  
+}
+.imageElement--foursub-img {
+  max-width: 1340px;
+  max-height: 630px !important;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index:0;  
+}
+.imageElement--fitfhsub-img {
+  max-width: 1340px;
+  max-height: 630px !important;
+  width: 1340px;
+  height: 630px !important;
+  position: absolute;
+  z-index:1;  
+  left: 0;
+  top: 0;
+}
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+.container {
+  margin: 0px !important;
+  max-width: 1920px;
+  width: 100%;
+  padding: 0;
+} 
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+  .label {
+     font-size: 40px;
+  }
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.image {
+  image-rendering: -webkit-optimize-contrast;
+}
+.imageElement--MNTuglybtn{ 
+  position: absolute;
+  z-index: 2;
+  width: 60px;
+  height: 60px; 
+  bottom: 5%;
+}
+@media screen and (max-width: 1000px) { 
+  .imageElement--MNTuglybtn{
+    bottom: 5%;
+  }
+  .container {
+    margin: 0px !important;
+    max-width: 980px;
+    width: 100%;
+    padding: 0;
+  } 
+  .imageElement--secsub-img{
+    max-width: 980px;
+    max-height: 764px;
+    margin: 25px 0 80px;
+  }
+  .vtex-store-components-3-x-container{
+    padding: 0px;
+  }
+  .imageElement--fitfhsub-img{
+    max-width: 880px;
+    max-height: 630px !important;
+    width: 100%;
+    height: 630px !important;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+  }
+  .infoCardContainer--info-card-vinhoFBS{
+    min-width: 208px;
+    min-height: 200px; 
+  }
+  .infoCardImageContainer--info-card-vinhoFBS{
+    width: 198px;
+    height: auto;
+  }
+  .infoCardTextContainer--info-card-vinhoFBS{
+    align-items: center;
+  }
+  .infoCardCallActionContainer--info-card-vinhoFBS{
+    margin-top: 10px;
+  }
+  .infoCardHeadline--info-card-vinhoFBS{
+    padding-right: 0px;
+  } 
+  .imageElement--foursub-img{
+    max-width: 880px;
+    max-height: 630px !important;
+  }
+  .imageElement--thrsub-img{
+    max-width: 440px;
+    max-height: 600px !important;
+  }
+}
+@media screen and (max-width: 414px) { 
+  .imageElement--MNTuglybtn{
+    bottom: 10%;
+  }
+  .container {
+    margin: 0px !important;
+    max-width: 414px;
+    width: 100%;
+    padding: 0;
+  } 
+  .imageElement--Bkgparalax{
+    left: 0px;
+  }
+  .imageElement--secsub-img{
+    max-width: 414px;
+    max-height: 430px;
+    margin: 0px 0 40px;
+  }
+  .vtex-store-components-3-x-container{
+    padding: 0px;
+  }
+  .imageElement--fitfhsub-img{
+    max-width: 414px;
+    max-height: 1000px !important;
+    width: 100%;
+    height: 1000px !important;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+  }
+  .infoCardContainer--info-card-vinhoFBS{
+    min-width: 248px;
+    max-height: 200px;
+    max-width: 248px;
+    max-height: 200px;
+    width: 100%;
+    margin: auto 15px 30px;
+  }
+  .infoCardImageContainer--info-card-vinhoFBS{
+    width: 248px;
+    height: 350px;
+  }
+  .infoCardTextContainer--info-card-vinhoFBS{
+    align-items: flex-end; 
+  }
+  .infoCardCallActionContainer--info-card-vinhoFBS{
+    margin-top: 10px;
+  }
+  .infoCardHeadline--info-card-vinhoFBS{
+    padding-right: 0px;
+  } 
+  .imageElement--foursub-img{
+    max-width: 414px;
+    max-height: 630px !important;
+  }
+  .imageElement--thrsub-img{
+    max-width: 374px;
+    max-height: 374px !important;
+  }
+  .infoCardContainer--info-card-carousel{
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  .infoCardImageContainer--info-card-carousel {
+    width: 374px;
+    height: 388px; 
+
+  }
+  .infoCardTextContainer--info-card-carousel{
+    width: 374px;
+    height: 203px;
+    margin-left: 0px;
+  }
+  .infoCardHeadline--info-card-carousel{
+    font-family: 'Robotobld';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    color: #000;
+  }
+  .infoCardSubhead--info-card-carousel{
+    font-family: 'Robotobld';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    position: relative;
+    margin-top: 45px;
+    color: #000;
+  }
+}
